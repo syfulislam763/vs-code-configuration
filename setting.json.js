@@ -1,5 +1,5 @@
 {
-    "sync.gist": "8f83ce108385226bb62657883d06fd51",
+    "sync.gist": "8f83ce108385226bb6dfdgdsd45357883d06fd51",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "terminal.integrated.shell.windows": "G:\\program files\\Git\\bin\\bash.exe",
 
