@@ -1,30 +1,25 @@
 {
-    "sync.gist": "8f83ce108385226bb6dfdgdsd45357883d06fd51",
-    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.shell.windows": "G:\\program files\\Git\\bin\\bash.exe",
-
-    "settingsSync.ignoredExtensions": [
-
-    ],
-    "settingsSync.keybindingsPerPlatform": true,
-    "settingsSync.ignoredSettings": [
-
-    ],
-    "files.autoSave": "onFocusChange",
-    "terminal.integrated.automationShell.windows": "",
-    "tabnine.experimentalAutoImports": true,
-    "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
-    "editor.codeLensFontSize": 30,
-    "editor.fontSize": 18,
+    "workbench.colorTheme": "Dracula Soft",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
+        "Command Prompt": {
+          "path": [
+            "F:\\programs\\Git\\bin\\bash.exe",
+          ],
+          "args": [],
+          "icon": "terminal-bash"
+        },
+        "GitBash": {
+          "path": ["F:\\programs\\Git\\bin\\bash.exe"],
+          "source": "Git Bash",
+          "icon": "terminal-bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.editor.enablePreview": false,
     "editor.fontFamily": "Fira Code",
-    "editor.minimap.enabled": false,
-    "task.slowProviderWarning": null,
-    "editor.fontLigatures": true,
-    "workbench.startupEditor": "welcomePage",
-    "code-runner.clearPreviousOutput": true,
-    "terminal.integrated.shell.osx": "",
-    "editor.codeActionsOnSave": null,
-    "terminal.integrated.automationShell.linux": "",
+    "editor.fontSize": 18,
+    "files.autoSave": "onFocusChange",
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.saveFileBeforeRun": true,
@@ -96,6 +91,15 @@
         "javascript": ".js"
     },
     "code-runner.temporaryFileName": "",
-    "window.zoomLevel": -1,
     "workbench.iconTheme": "vscode-great-icons",
+    "editor.defaultFormatter": "remimarsal.prettier-now",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+      "*.json": "default"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.menuBarVisibility": "compact",
 }
